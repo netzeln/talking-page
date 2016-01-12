@@ -35,8 +35,8 @@ $("button#meow").click(function() {
   $("ul#cat").prepend("<li>Meow?</li>");
   $("ul#dog").prepend("<li>BARK!!!</li>");
 
-  $("ul#user").children("li").first().click(function(){
-    $(this).remove();
+  $("img#catImg").click(function(){
+    $(this).hide();
   });
 });
 
@@ -46,8 +46,8 @@ $("button#bark").click(function() {
   $("ul#cat").prepend("<li>HISSSSSSSSSSS!</li>");
   $("ul#dog").prepend("<li>Bark?</li>");
 
-  $("ul#user").children("li").first().click(function(){
-    $(this).remove();
+  $("img#dogImg").click(function(){
+    $(this).hide();
   });
 });
 
